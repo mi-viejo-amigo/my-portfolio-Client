@@ -7,7 +7,7 @@ export default defineConfig({
   root: './', // Указываем корневую папку, чтобы Vite нашел index.html
   build: {
     
-    outDir: '../dist/client', // Папка для клиентской сборки
+    outDir: '../dist/client', // путь для вывода статических файлов клиента
     ssrManifest: true,         // Для использования в SSR
     rollupOptions: {
       input: './index.html',  // Убедитесь, что путь к `index.html` указан правильно

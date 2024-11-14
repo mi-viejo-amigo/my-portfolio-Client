@@ -1,6 +1,6 @@
 import { Data } from '../chat-room/ChatRoom'
 import { motion } from 'framer-motion'
-import styles from './Message.module.css'
+import styles from './message.module.css'
 import clsx from 'clsx'
 
 interface IMessage {
